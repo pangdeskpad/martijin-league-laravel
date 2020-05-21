@@ -53,7 +53,9 @@
                     document.getElementById('js-btn-play-all').setAttribute("disabled", "disabled");
                     document.getElementById('js-btn-next-week').setAttribute("disabled", "disabled");
                     document.getElementById('js-btn-play-all').classList.add('cursor-not-allowed');
+                    document.getElementById('js-btn-play-all').classList.add('opacity-50');
                     document.getElementById('js-btn-next-week').classList.add('cursor-not-allowed');
+                    document.getElementById('js-btn-next-week').classList.add('opacity-50');
                 });
             },
             nextWeek() {
@@ -72,7 +74,9 @@
                         document.getElementById('js-btn-play-all').setAttribute("disabled", "disabled");
                         document.getElementById('js-btn-next-week').setAttribute("disabled", "disabled");
                         document.getElementById('js-btn-play-all').classList.add('cursor-not-allowed');
+                        document.getElementById('js-btn-play-all').classList.add('opacity-50');
                         document.getElementById('js-btn-next-week').classList.add('cursor-not-allowed');
+                        document.getElementById('js-btn-next-week').classList.add('opacity-50');
                     } else {
                         document.getElementById("js-week-no").value = document.getElementById("js-week-no").value * 1 + 1;
                     }
